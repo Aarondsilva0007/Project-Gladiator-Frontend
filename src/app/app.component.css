@@ -22,7 +22,7 @@ background-color: #304538;
 } */
 
 .footer {
-    position: fixed;
+    /* position: fixed; */
     bottom: 0;
     overflow: hidden;
     width: 100%;
@@ -31,4 +31,8 @@ background-color: #304538;
     font-family: Verdana, sans-serif;
     color: rgb(226, 225, 225);
     text-align: center;
+ }
+
+ main.container-fluid{
+    min-height: calc(100vh - 54px - 94px);
  }
